@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://wallpapercave.com/wp/Qm9D3qf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-top {
+    background-color: rgba(0, 0, 0, 0.49);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    height: 15vw;
+    z-index: 1;
+  }
+  
+  .header-top a {
+    text-decoration: none;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius: 15px;
+    color: black;
+    border: solid 5px white;
+    padding: 5px;
+  }
+  
+  .header-top a:hover {
+    color: white;
+    background: black;
+    transition: 0.5s;
+  }
+  
+  .header-logo {
+    display: flex;
+    font-size: 5vw;
+    color: white;
+    padding: 5% 5% 5% 5%;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin-top: 2.5vw;
+    margin-left: 4.5vw;
+  }
+  
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+    float: right;
+  }
+  
+  .header-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    border: white solid 5px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+    margin-right: 1vw;
+  }
+  
+  .header-menu a:hover {
+    color: white;
+    background: black;
+    transition: 0.3s;
+  }
+
+
+/* Contenido */
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-top: 15vw;
+}
+
+.box1 p{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius: 30px;
+    padding: 5% 5%;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px rgba(247, 164, 40, 0.854) solid;
+}
+
+#beatle{
+    display: flex;
+    border-radius: 5%;
+    margin: auto;
+    flex-grow: 0.5;
+    height: 10%;
+    width: 10%;
+}
+
+.puntos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: 'Anton', sans-serif;
+    color: rgba(255, 255, 255, 0.509);
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    transition: 3s;
+    font-stretch: 50%;
+}
+.puntos:hover{
+color: white;
+}
+
+.box2{
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.spotify{
+    display: flex;
+    flex: auto;
+}
+.yt{
+    width: 80svw;
+}
+
+.wiki{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    padding-top: 1.5%;
+    position: static;
+}
+footer {
+    background-color: #dfb90f65;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-12 {
+    flex-basis: 70%;
+    text-decoration: none;
+  }
+  
+  .col-md-6 {
+    flex-basis: 50%;
+    text-decoration: none;
+  }
+  
+  .col-md-3 {
+    flex-basis: 25%;
+    text-decoration: none;
+  }
+  .col-md-3 ul li{
+    list-style: none;
+  }
+  .col-md-3 ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  .col-md-3 ul li a:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .footext {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 768px) {
+    .header{
+        height: 40vw;
+        width: 100svw;
+    }
+    .header-top{
+        width: 100svw;
+        height: 18vw;
+    }
+    .header-logo {
+      font-size: 8vw;
+      padding: 10% 5%;
+      margin-left: 5vw;
+      margin-top: 2.5vw;
+      align-items: baseline;
+      margin-bottom: 5.5vw;
+      font-size: 1.5rem;
+      padding: 3px 5px;
+    }
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5vw;
+        margin: 2% 2% 2% 2%;
+        float: right;
+    }
+    .header-menu a{
+        font-size: 1rem;
+        padding: 1vw;
+        justify-content: space-between;
+  }
+  .yt{
+    width: 80vw;
+  }
+   }
